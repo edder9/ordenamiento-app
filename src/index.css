@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#MapApp {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+  }
+  
+  
+  
+  body{
+    
+    padding: 0;
+    margin: 0;
+  }
