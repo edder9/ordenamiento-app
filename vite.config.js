@@ -1,5 +1,6 @@
+
 export default {
   // ...
-  base: '/ordenamiento-app/', // Change this to match your GitHub repository name
+  base: 'vbetas/ideas/ordenamiento-app/', // Change this to match your GitHub repository name
   // ...
 }
