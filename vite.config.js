@@ -1,6 +1,12 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-export default {
-  // ...
-  base: 'vbetas/ideas/ordenamiento-app/', // Change this to match your GitHub repository name
-  // ...
-}
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/setupTests.ts',
+  }
+})
